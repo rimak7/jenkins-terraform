@@ -38,6 +38,7 @@ f)	Adjust Iam role trust relationship to enable the role can be assumed by itsel
 
 
 g)	Install **[AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)** on Server and and configure Server without credentials **(no Access and Secret Keys)**
+
     sudo snap install aws-cli --classic
 
 h)	**`Test`** : 
@@ -144,5 +145,7 @@ Verify Terraform has been Installed
 
 ## 8 Configure Jenkins Jobs to Poll SCM system automatically every 5 minutes 
 
+    H/5 * * * *
 
-## 8 Configure GitHub Hooks So a Jenkins Build is triggered when code is committed to Repo
+
+## 9 Configure GitHub Hooks So a Jenkins Build is triggered when code is committed to Repo
